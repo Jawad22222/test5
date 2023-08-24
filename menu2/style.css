@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray
+}
+.container{
+    text-align: center;
+    padding: 200px 300px 100px 300px;
+}
+.container ul{
+    list-style-type: none;
+    display: flex;
+   flex-wrap: wrap;
+}
+.container ul li{
+    margin: 30px;
+}
+.container ul li img{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 20px 10px gray;
+    border-radius: 5px;
+}
